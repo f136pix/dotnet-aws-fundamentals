@@ -26,5 +26,5 @@ while (!cts.IsCancellationRequested)
         await sqsClient.DeleteMessageAsync(getQueueUrlResponse.QueueUrl, message.ReceiptHandle);
     }
 
-    await Task.Delay(1000);
+    await Task.Delay(1);
 }

@@ -1,0 +1,3 @@
+﻿Dynamo db tables are usually nor sorted by Entity.
+Single table can usually Users, Items, Movies, etc...
+

@@ -3,7 +3,7 @@ using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.TestUtilities;
 using Xunit;
 
-namespace SImpleHttpLambda.Tests;
+namespace SimpleLambdaHttps.Tests;
 
 public class FunctionTest
 {

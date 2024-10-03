@@ -3,7 +3,7 @@
   "Transform": "AWS::Serverless-2016-10-31",
   "Description": "An AWS Serverless Application. This template is partially managed by Amazon.Lambda.Annotations (v1.3.0.0).",
   "Resources": {
-    "SImpleHttpLambdaFunctionsGetGenerated": {
+    "SimpleLambdaHttpsFunctionsGetGenerated": {
       "Type": "AWS::Serverless::Function",
       "Metadata": {
         "Tool": "Amazon.Lambda.Annotations",
@@ -15,7 +15,7 @@
         "Architectures": [
           "x86_64"
         ],
-        "Handler": "SimpleHttpLambda::SImpleHttpLambda.Functions_Get_Generated::Get",
+        "Handler": "SimpleLambdaHttps::SimpleLambdaHttps.Functions_Get_Generated::Get",
         "Runtime": "dotnet8",
         "CodeUri": ".",
         "MemorySize": 512,

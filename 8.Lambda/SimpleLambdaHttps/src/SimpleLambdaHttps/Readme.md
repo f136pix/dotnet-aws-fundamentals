@@ -32,13 +32,13 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "SImpleHttpLambda/test/SImpleHttpLambda.Tests"
+    cd "SimpleLambdaHttps/test/SimpleLambdaHttps.Tests"
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "SImpleHttpLambda/src/SImpleHttpLambda"
+    cd "SimpleLambdaHttps/src/SimpleLambdaHttps"
     dotnet lambda deploy-serverless
 ```
 ## Arm64

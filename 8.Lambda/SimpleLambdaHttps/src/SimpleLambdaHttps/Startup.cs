@@ -1,7 +1,7 @@
 using Amazon.Lambda.Annotations;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SImpleHttpLambda;
+namespace SimpleLambdaHttps;
 
 [LambdaStartup]
 public class Startup
